@@ -39,7 +39,7 @@ files.
 If you wish to pass your options before the input files, separate the two with
 a double dash to prevent input files being used as option arguments:
 
-    decodecode --compress --mangle -- input.js
+    decodecode --deco-arr hoge piyo fuga --compress --mangle -- input.js
 
 The available options are:
 

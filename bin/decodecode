@@ -74,6 +74,7 @@ You need to pass an argument to this option to specify the name that your module
     .describe("name-cache", "File to hold mangled names mappings")
     .describe("pure-funcs", "List of functions that can be safely removed if their return value is not used")
     .describe("dump-spidermonkey-ast", "Dump SpiderMonkey AST to stdout.")
+    .describe("deco-arr", "decoration identifier array")
 
     .alias("p", "prefix")
     .alias("o", "output")
@@ -86,6 +87,7 @@ You need to pass an argument to this option to specify the name that your module
     .alias("V", "version")
     .alias("e", "enclose")
     .alias("q", "quotes")
+    .alias("D", "deco-arr")
 
     .string("source-map")
     .string("source-map-root")
@@ -107,6 +109,7 @@ You need to pass an argument to this option to specify the name that your module
     .string("name-cache")
     .array("reserved-file")
     .array("pure-funcs")
+    .array("deco-arr")
 
     .boolean("expr")
     .boolean("source-map-include-sources")
@@ -181,6 +184,10 @@ if (ARGS.d) {
 
 if (ARGS.pure_funcs) {
     if (COMPRESS) COMPRESS.pure_funcs = ARGS.pure_funcs;
+}
+
+if (ARGS.deco_arr) {
+    MANGLE.decoArr = ARGS.deco_arr;
 }
 
 if (ARGS.r) {
