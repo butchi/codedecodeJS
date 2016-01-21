@@ -1,14 +1,6 @@
-UglifyJS 2
-==========
-[![Build Status](https://travis-ci.org/mishoo/UglifyJS2.svg)](https://travis-ci.org/mishoo/UglifyJS2)
-
-UglifyJS is a JavaScript parser, minifier, compressor or beautifier toolkit.
-
-This page documents the command line utility.  For
-[API and internals documentation see my website](http://lisperator.net/uglifyjs/).
-There's also an
-[in-browser online demo](http://lisperator.net/uglifyjs/#demo) (for Firefox,
-Chrome and probably Safari).
+decodecodeJS
+============
+decodecodeJS is a JavaScript parser, minifier, compressor or beautifier toolkit.
 
 Install
 -------
@@ -18,25 +10,25 @@ First make sure you have installed the latest version of [node.js](http://nodejs
 
 From NPM for use as a command line app:
 
-    npm install uglify-js -g
+    npm install decodecode -g
 
 From NPM for programmatic use:
 
-    npm install uglify-js
+    npm install decodecode
 
 From Git:
 
-    git clone git://github.com/mishoo/UglifyJS2.git
-    cd UglifyJS2
+    git clone git://github.com/mishoo/decodecodeJS.git
+    cd decodecode
     npm link .
 
 Usage
 -----
 
-    uglifyjs [input files] [options]
+    decodecode [input files] [options]
 
-UglifyJS2 can take multiple input files.  It's recommended that you pass the
-input files first, then pass the options.  UglifyJS will parse input files
+decodecode can take multiple input files.  It's recommended that you pass the
+input files first, then pass the options.  decodecodeJS will parse input files
 in sequence and apply any compression options.  The files are parsed in the
 same global scope, that is, a reference from a file to some
 variable/function declared in another file will be matched properly.
@@ -47,7 +39,7 @@ files.
 If you wish to pass your options before the input files, separate the two with
 a double dash to prevent input files being used as option arguments:
 
-    uglifyjs --compress --mangle -- input.js
+    decodecode --compress --mangle -- input.js
 
 The available options are:
 
