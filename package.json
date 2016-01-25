@@ -2,7 +2,11 @@
   "name": "decodecode",
   "description": "JavaScript parser, deco-mangler/compressor and beautifier toolkit",
   "homepage": "https://github.com/butchi/decodecodeJS.git",
-  "author": "IWABUCHI Yu(u)ki <k38647@gmail.com> (http://butchi.jp/)",
+  "author": {
+    "name": "IWABUCHI Yu(u)ki",
+    "email": "k38647@gmail.com",
+    "url": "http://butchi.jp/"
+  },
   "license": "BSD-2-Clause",
   "version": "0.1.0",
   "engines": {
