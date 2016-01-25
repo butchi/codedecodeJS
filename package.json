@@ -20,7 +20,7 @@
   },
   "main": "tools/node.js",
   "bin": {
-    "decodecodejs": "bin/decodecode"
+    "decodecode": "bin/decodecode"
   },
   "files": [
     "bin",
