@@ -60,7 +60,8 @@ exports.minify = function(files, options) {
             sourcesContent[file] = code;
             toplevel = UglifyJS.parse(code, {
                 filename: options.fromString ? i : file,
-                toplevel: toplevel
+                toplevel: toplevel,
+                decoArr: options.decoArr
             });
         });
     }
