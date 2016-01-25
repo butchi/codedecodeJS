@@ -1,7 +1,7 @@
 {
   "name": "decodecode",
   "description": "JavaScript parser, deco-mangler/compressor and beautifier toolkit",
-  "homepage": "http://butchi.github.io/decodecode/",
+  "homepage": "https://github.com/butchi/decodecodeJS.git",
   "author": "IWABUCHI Yu(u)ki <k38647@gmail.com> (http://butchi.jp/)",
   "license": "BSD-2-Clause",
   "version": "0.1.0",
