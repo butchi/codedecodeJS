@@ -8,7 +8,7 @@
     "url": "http://butchi.jp/"
   },
   "license": "BSD-2-Clause",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "node": ">=4.2.4"
   },
